@@ -10,8 +10,6 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
-    us = User.first.microposts
-    puts "#{us}"
   end
 
   # GET /users/new
